@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="../static/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="../static/js/jquery.min.js"></script>
+<!--theme-style-->
+<link href="../static/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!--header-->
+<div class="header" >
+	<div class="head" >
+		<div class="container">
+			<div class="navbar-top">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						 <div class="navbar-brand logo ">
+							<h1 class="animated wow pulse" data-wow-delay=".5s">
+							<a href="index.html" style="font-family: 方正静蕾简体">机视OCR</a></h1>
+						</div>
+
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav link-effect-4">
+					<li class="active"><a href="index.html" data-hover="Home">Home</a> </li>
+						<li ><a href="about.html" data-hover="About">About </a> </li>
+						<li><a href="codes.html" data-hover="Codes">Codes </a></li>
+						<li><a href="contact.html" data-hover="Contact">Contact</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+	
+			<div class="header-left animated wow fadeInLeft animated" data-wow-delay=".5s" >
+					<ul>
+						<li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@example.com">mxiao27@qq.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone"></i>+86 18850297552</li>
+						
+					</ul>
+				</div>
+			  <div class="clearfix"></div>	
+		</div>
+	</div>
+	<!---->
+	<div class="banner">
+			<p style="font-family: 微软雅黑;color: #FFFFFF;font-size: 50px">文字识别</p>
+
+			<p>提供多种场景下精准的图像文字识别技术服务让您的应用看图识字</p><p>提升输入效率，优化用户体验</p>
+	</div>
+</div>
+
+<!--content-->
+ <div class="service">
+ <div class="container">
+ <div class="ser-top">
+	<h3>Services</h3>
+	<div class="ser-t">
+		<b></b>
+		<span><i></i></span>
+		<b class="line"></b>
+	</div>
+ </div>
+  <div class="ser-head">
+    <div class="ser-grid ">
+	<a href="{% url 'predict' %}">
+    <div class="ser-grid1">
+
+     		<i class="glyphicon glyphicon-leaf"> </i>
+			<h3>英文文本识别</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur</p>
+
+    </div>
+	</a>
+    </div>
+  </div>
+  <div class="ser-head">
+    <div class="ser-grid ">
+    <div class="ser-grid1">
+     <i class="glyphicon glyphicon-piggy-bank"> </i>
+			<h3>汉字文本识别</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur </p>
+    </div>
+    </div>
+  </div>
+
+  <div class="ser-head">
+    <div class="ser-grid ">
+    <div class="ser-grid1">
+    <i class="glyphicon glyphicon-cog"> </i>
+			<h3>票据识别</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur </p>
+    </div>
+    </div>
+  </div>
+
+  <div class="ser-head">
+    <div class="ser-grid ">
+    <div class="ser-grid1">
+     <i class="glyphicon glyphicon-user"> </i>
+			<h3>证件识别</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur</p>
+    </div>
+    </div>
+  </div>
+
+
+
+  <div class="clearfix"> </div>
+</div>
+</div>
+<!-- //services -->
+
+
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-7 footer-bottom wow fadeInRight animated" data-wow-delay=".5s">
+			<h4>Aenean condimentum suscipit</h4>
+			<p>Proin ullamcorper urna quis velit mollis molestie suscipit nisl consectetur
+			uspendisse venenatis dolor et nunc iaculis ege uspendisse venenatis dolor et nunc iaculis ege</p>
+		</div>
+			<div class="col-md-5 footer-bottom1 wow fadeInLeft animated" data-wow-delay=".5s">
+			<h4>Follow Us</h4>
+				<ul class="social">
+						
+						<li><a href="#"><i></i></a></li>
+						<li><a href="#"><i class="icon"></i></a></li>
+						<li><a href="#"><i class="icon1"></i></a></li>
+						<li><a href="#"><i class="icon2"></i></a></li>
+						
+				</ul>
+			</div>
+				<div class="clearfix"> </div>
+	</div>	
+</div>
+	<div class="copy">
+		<p class="footer-grid ">Copyright &copy; 2019.厦门大学嘉庚学院.TKK </p>
+	</div>
+<!-- for bootstrap working -->
+	<script src="../static/js/bootstrap.min.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>

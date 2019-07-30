@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monkey测试结果检测</title>
+</head>
+<body>
+    <form method="post" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="my1file"><br>
+        <input type="submit" value="上传">
+    </form>
+
+    <h1>分析结果：</h1><hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>测试执行人</td>
+                <td>测试执行版本</td>
+                <td>BUG数量统计</td>
+                <td>备注</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{'people'}</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
